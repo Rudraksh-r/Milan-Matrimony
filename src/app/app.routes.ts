@@ -8,6 +8,8 @@ import { EduDetailsComponent } from './profile/components/step2/edu-details.comp
 import { FamilyDetailsComponent } from './profile/components/step3/family-details.component';
 import { GetOTPComponent } from './get-otp/get-otp.component';
 import { MyShaadiComponent } from './my-shaadi/my-shaadi.component';
+import { DashboardComponent } from './my-shaadi/Components/dashboard/dashboard.component';
+// import { MyProfileComponent } from './my-shaadi/my-profile/my-profile.component';
 
 export const routes: Routes = [
     { path: 'home', component: HomeComponent }, 
@@ -19,4 +21,6 @@ export const routes: Routes = [
     { path: 'step2', component: EduDetailsComponent },
     { path: 'step3', component: FamilyDetailsComponent },
     { path: 'my-shaadi', component: MyShaadiComponent },
+    { path: 'my-dash', component: DashboardComponent },
+    // { path: 'my-profile', component: MyProfileComponent },
 ];
